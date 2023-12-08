@@ -1,0 +1,72 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1f2029;
+    color: #dddce1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nuncCard {
+    background-color: #324a70;
+    max-width: calc(200px + 30%);
+    margin: auto;
+    padding: 0px 12px 10px 12px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #00000078;
+}
+
+.nuncTitulo {
+    text-shadow: 0px 0px 6px #000000be;
+    padding: 7px;
+}
+
+.nuncTexto {
+    text-align: center;
+    font-size: 1.2em;
+    color: whitesmoke;
+    font-weight: 500;
+    text-shadow: 0px 0px 2px #000000eb;
+    margin: 40px 0px;
+}
+.euNunca {
+    color: #ee4b6f;
+}
+.btns button {
+    display: inline-block;
+    padding: 5px 8px;
+    width: 49%;
+    margin: 0px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: aliceblue;
+    border: 1px solid black;
+}
+.btns button:focus {
+    animation: jelly 0.5s;
+}
+.btns button:hover {
+    filter: brightness(111%);
+}
+.btns .btnNunc {
+    background-color: #c11a1a;
+}
+.btns .btnJa {
+    background-color: #188818;
+}
+
+@keyframes jelly {
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+  
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+  
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+}
