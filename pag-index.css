@@ -1,0 +1,32 @@
+.card {
+    list-style: none;
+    font-size: 1.1em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.eununca-primario * {
+    position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+.eununca-primario {
+    color: #00ff00;
+}
+.eununca-primario ul {
+	background-color: #1a96ae;
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+.eununca-primario ul li {
+	display: none;
+	/* position:absolute; */
+	top: 100%;
+	padding: 5px;
+    margin: 0px;
+    text-indent: 0;
+}
+
+.eununca-primario:hover ul > li {
+	display: block;
+}
