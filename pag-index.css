@@ -18,16 +18,15 @@
     color: #ff6a6a;
 }
 .eununca-primario ul {
-	background-color: #0a063e;
-    border-radius: 4px;
-    color: aliceblue;
+	background-color: #050924;
+    box-shadow: 0px 0px 8px #05ffbc41;
+    border-radius: 10px;
 }
 
 .eununca-primario ul li {
     display: none;
-	/* position:absolute; */
 	padding: 5px;
-    margin: 0px;
+    margin: 2px 0px;
     text-indent: 0;
 }
 
@@ -36,7 +35,7 @@
 }
 
 .eununca-primario ul li a {
-    color: #2ec761;
+    color: #bac72e;
 }
 .eununca-primario ul li a:hover {
     color: #d6dfe8;
