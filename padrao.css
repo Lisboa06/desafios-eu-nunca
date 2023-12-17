@@ -59,3 +59,13 @@ body {
     font-weight: bold;
     text-shadow: 0px 0px 4px #00000083;
 }
+
+
+.textoPrincipal {
+    text-align: center;
+    font-size: 1.2em;
+    color: aliceblue;
+    font-weight: 500;
+    text-shadow: 0px 0px 2px #000000eb;
+    margin: 25px 0 40px 0;
+}

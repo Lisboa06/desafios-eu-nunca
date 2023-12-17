@@ -42,8 +42,8 @@ const frase = [
 'menti sobre meu estado civil',
 'fui apaixonado(a) por mais de uma pessoa ao mesmo tempo',
 'fuxiquei o celular do(a) namorado(a)',
-'causei ciúmes em alguém de propósito'
-]
+'causei ciúmes em alguém de propósito',
+'tive um contato próximo com a morte']
 
 const frasePesada = [
 'beijei alguém que eu não conhecia',

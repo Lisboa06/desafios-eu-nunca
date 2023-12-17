@@ -4,13 +4,13 @@
     text-shadow: 0px 0px 5px black;
     border: 1px solid #203449;
 }
-.card > div {
+.card > div, .card a {
     color: #ff1b7a;
     font-weight: 500;
     margin: 5px 0;
     /* background-color: #fcb126; */
     width: max-content;
-
+    text-decoration: none;
     margin: auto;
     padding: 0px 5px;
     text-align: center;

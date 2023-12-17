@@ -1,0 +1,21 @@
+.quizBtn {
+    background-color: #470188;
+    color: #bafffc;
+    box-shadow: 0px 0px 10px #79afe848;
+    text-shadow: 0px 0px 7px #000000aa;
+    border: 1px solid black;
+    width: 100%;
+    padding: 6px 0px;
+    margin: 0px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.quizBtn:hover {
+    filter: saturate(110%);
+}
+.quizBtn:active {
+    filter: brightness(90%);
+    scale: .96;
+}
