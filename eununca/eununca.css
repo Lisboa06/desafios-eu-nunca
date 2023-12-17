@@ -12,37 +12,6 @@
     /* background-color: #188818; */
     margin: 5px 0;
 }
-.animacaoFlutuar {
-    transform-origin: 50%;
-    position: relative;
-    animation: float 2.6s infinite ease-in-out;
-}
-@keyframes float {
-    0% {
-        transform: translatey(-3px);
-        text-shadow: 0 4px 3px #00000069;
-    }
-    50% {
-        transform: translatey(3px);
-        text-shadow: 0 -2px 3px #0000002b;
-    }
-
-    100% {
-        transform: translatey(-3px);
-        text-shadow: 0 4px 3px #0000004e;
-    }
-}
-
-.voltar {
-    display: inline;
-    float: right;
-}
-.voltar a {
-    color: #c11a1a;
-    text-decoration: none;
-    font-weight: bold;
-    text-shadow: 0px 0px 4px #00000083;
-}
 
 .nuncTexto {
     text-align: center;
@@ -70,7 +39,7 @@
     animation: jelly 0.5s;
 }
 .btns button:hover {
-    filter: brightness(111%);
+    filter: brightness(110%);
 }
 .btns .btnNunc {
     background-color: #c11a1a;

@@ -2,42 +2,55 @@
     list-style: none;
     font-size: 1.1em;
     text-shadow: 0px 0px 5px black;
+    border: 1px solid #203449;
+}
+.card > div {
+    color: #ff1b7a;
+    font-weight: 500;
+    margin: 5px 0;
+    /* background-color: #fcb126; */
+    width: max-content;
+
+    margin: auto;
+    padding: 0px 5px;
+    text-align: center;
 }
 .titulo {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
-.eununca-primario * {
+.eununca * {
     list-style: none;
     position: relative;
 	margin: 0px;
     text-decoration: none;
 	padding: 0px;
 }
-.eununca-primario {
-    color: #ff6a6a;
-}
-.eununca-primario ul {
+/* .eununca-primario {
+    color: #ff1b7a;
+} */
+.eununca ul {
 	background-color: #050924;
     box-shadow: 0px 0px 8px #05ffbc41;
     border-radius: 10px;
-}
-
-.eununca-primario ul li {
+    margin-bottom: 8px;
+    padding: 2px;
     display: none;
-	padding: 5px;
-    margin: 2px 0px;
-    text-indent: 0;
 }
 
-.eununca-primario:hover ul > li {
+.eununca ul li {
+	padding: 3px;
+    text-align: center;
+}
+
+.eununca:hover ul {
     display: block;
 }
 
-.eununca-primario ul li a {
-    color: #bac72e;
+.eununca ul li a {
+    color: #749eff;
 }
-.eununca-primario ul li a:hover {
+.eununca ul li a:hover {
     color: #d6dfe8;
     transition: 0.3s color;
 }
