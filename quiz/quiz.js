@@ -18,7 +18,7 @@ const quizFrases = [
 'Qual você acha que é a melhor maneira de se desculpar com seu parceiro?',
 'O que você faria se não houvesse aplicação da lei?',
 'O que você faria se tudo no mundo acabaria amanhã?',
-'Você descobriu que seu melhor amigo estava namorando seu ex-namorado ou namorada?',
+'O que você faria se seu amigo(a) estivesse ficando com seu Ex?',
 'Qual é o meu momento mais embaraçoso?',
 'Qual é a única coisa que eu não posso viver sem?'
 ];
