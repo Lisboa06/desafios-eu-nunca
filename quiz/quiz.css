@@ -19,3 +19,6 @@
     filter: brightness(90%);
     scale: .96;
 }
+.quizBtn::selection {
+    background-color: #00000000;
+}

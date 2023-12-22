@@ -23,9 +23,23 @@ const quizFrases = [
 'Qual é a única coisa que eu não posso viver sem?'
 ];
 
-
 function gerarQuiz() {
-    const randomElement = quizFrases[Math.floor(Math.random() * quizFrases.length)];
+    if (quizFrases.length === 0) {
+        // Se o array estiver vazio, reinicie com todas as frases
+        quizFrases.push(
+        'Fim!'
+        );
+    }
+  
+    const randomIndex = Math.floor(Math.random() * quizFrases.length);
+    const fraseEscolhida = quizFrases.splice(randomIndex, 1)[0]; // Remove e obtém a frase
     const fraseSaida = document.querySelector('#fraseId');
-    fraseSaida.innerHTML = randomElement;
+    fraseSaida.innerHTML = fraseEscolhida;
 }
+  
+
+// function gerarQuiz() {
+//     const randomElement = quizFrases[Math.floor(Math.random() * quizFrases.length)];
+//     const fraseSaida = document.querySelector('#fraseId');
+//     fraseSaida.innerHTML = randomElement;
+// }

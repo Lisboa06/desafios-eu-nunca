@@ -7,16 +7,17 @@
 .card > div, .card a {
     color: #ff1b7a;
     font-weight: 500;
-    margin: 5px 0;
     /* background-color: #fcb126; */
     width: max-content;
     text-decoration: none;
-    margin: auto;
+    margin: 6px auto;
     padding: 0px 5px;
     text-align: center;
 }
 .titulo {
     font-size: 1.5rem;
+    margin: 4px 2px;
+    padding: 0px;
 }
 
 .eununca * {
