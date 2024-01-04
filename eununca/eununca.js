@@ -45,7 +45,7 @@ const frase = [
 'causei ciúmes em alguém de propósito',
 'tive um contato próximo com a morte']
 
-const frasePesada = [
+const frasePlus = [
 'beijei alguém que eu não conhecia',
 'fiquei com o irmão/irmã de um amigo',
 'fiquei apaixonado por algum professor',
@@ -76,13 +76,35 @@ const frasePesada = [
 ]
 
 function gerarFrase() {
-    const randomElement = frase[Math.floor(Math.random() * frase.length)];
-    const fraseSaida = document.querySelector('#fraseId')
-    fraseSaida.innerHTML = randomElement
+    if (frase.length === 0) {frase.push('... (Fim!)');}
+
+    const randomIndex = frase[Math.floor(Math.random() * frase.length)];
+    const fraseEscolhida = frase.splice(randomIndex, 1)[0];
+    const fraseSaida = document.querySelector('#fraseId');
+    fraseSaida.innerHTML = fraseEscolhida;
 }
 
-function gerarFrasePesada() {
-    const randomElement = frasePesada[Math.floor(Math.random() * frasePesada.length)];
-    const fraseSaida = document.querySelector('#fraseId')
-    fraseSaida.innerHTML = randomElement
+function gerarFrasePlus() {
+    if (frasePlus.length === 0) {frasePlus.push('... (Fim!)');}
+
+    const randomIndex = frasePlus[Math.floor(Math.random() * frasePlus.length)];
+    const fraseEscolhida = frasePlus.splice(randomIndex, 1)[0];
+    const fraseSaida = document.querySelector('#fraseId');
+    fraseSaida.innerHTML = fraseEscolhida;
+}
+
+let contadorNunc = 0;
+function contNunc() {
+    if (frase.length > 0) {
+    contadorNunc++;
+    document.getElementById('contagemNunc').innerText = '(' + contadorNunc + ')';
+    }
+}
+
+let contadorJa = 0;
+function contJa() {
+    if (frase.length > 0) {
+    contadorJa++;
+    document.getElementById('contagemJa').innerText = '(' + contadorJa + ')';
+    }
 }

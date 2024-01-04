@@ -25,10 +25,8 @@ const quizFrases = [
 
 function gerarQuiz() {
     if (quizFrases.length === 0) {
-        // Se o array estiver vazio, reinicie com todas as frases
-        quizFrases.push(
-        'Fim!'
-        );
+        // Se o array estiver vazio, envie a mensagem Fim!
+        quizFrases.push('Fim!');
     }
   
     const randomIndex = Math.floor(Math.random() * quizFrases.length);
