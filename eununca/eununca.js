@@ -100,11 +100,25 @@ function contNunc() {
     document.getElementById('contagemNunc').innerText = '(' + contadorNunc + ')';
     }
 }
-
 let contadorJa = 0;
 function contJa() {
-    if (frase.length > 0) {
-    contadorJa++;
-    document.getElementById('contagemJa').innerText = '(' + contadorJa + ')';
+    if (frasePlus.length > 0) {
+        contadorJa++;
+        document.getElementById('contagemJa').innerText = '(' + contadorJa + ')';
+    }
+}
+
+let contadorNuncPlus = 0;
+function contNuncPlus() {
+    if (frasePlus.length > 0) {
+        contadorNuncPlus++;
+        document.getElementById('contagemNunc').innerText = '(' + contadorNuncPlus + ')';
+    }
+}
+let contadorJaPlus = 0;
+function contJaPlus() {
+    if (frasePlus.length > 0) {
+    contadorJaPlus++;
+    document.getElementById('contagemJa').innerText = '(' + contadorJaPlus + ')';
     }
 }
